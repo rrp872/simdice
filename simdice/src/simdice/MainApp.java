@@ -12,7 +12,7 @@ public class MainApp {
 		int maxNoOfBets = 500;
 		int simulationRuns = 1500;
 		
-		Winksim simulator = new Winksim(GlobalConstants.NAME_OF_GAME_DICE, maxNoOfBets, simulationRuns);
+		Simdice simulator = new Simdice(GlobalConstants.NAME_OF_GAME_DICE, maxNoOfBets, simulationRuns);
 		simulator.run();
 	}
 	

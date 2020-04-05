@@ -27,7 +27,7 @@ import simdice.token.LiveToken;
 import simdice.util.GlobalConstants;
 import simdice.util.History;
 
-public class Winksim {
+public class Simdice {
 
 	private String nameOfGame;
 	private int simulationRuns;
@@ -40,7 +40,7 @@ public class Winksim {
 	
 	protected Map<String, Integer> abortReasons;
 	
-	public Winksim(String nameOfGame, int maxNoOfBets, int simulationRuns) {
+	public Simdice(String nameOfGame, int maxNoOfBets, int simulationRuns) {
 		
 		this.nameOfGame = nameOfGame;
 		this.maxNoOfBets = maxNoOfBets;
